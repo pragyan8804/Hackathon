@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <header
-            className={`bg-black p-4 py-10 shadow-md ${
+            className={`bg-black p-4 py-5 shadow-md ${
                 isSticky ? "sticky top-0 z-50" : ""
             }`}
         >
@@ -42,20 +42,20 @@ const Header = () => {
                         Details
                     </Link>
                     <Link
-                        to="tracks"
-                        smooth={true}
-                        duration={500}
-                        className="text-white mx-4 cursor-pointer hover:text-orange-400"
-                    >
-                        Tracks
-                    </Link>
-                    <Link
                         to="prizes"
                         smooth={true}
                         duration={500}
                         className="text-white mx-4 cursor-pointer hover:text-orange-400"
                     >
                         Prizes
+                    </Link>
+                    <Link
+                        to="tracks"
+                        smooth={true}
+                        duration={500}
+                        className="text-white mx-4 cursor-pointer hover:text-orange-400"
+                    >
+                        Tracks
                     </Link>
                 </nav>
             </div>

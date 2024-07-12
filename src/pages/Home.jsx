@@ -18,10 +18,10 @@ const Home = () => {
             <AboutSection />
             <EventDetails />
             <RuleSection />
+            <PrizesSection />
             <TracksSection />
             <SportTrack />
             <InternTrack />
-            <PrizesSection />
             <Footer />
         </>
     );

@@ -9,42 +9,45 @@ const PrizesSection = () => {
             id="prizes"
             className="py-20 px-4 bg-gray-100 text-center min-h-screen flex flex-col justify-center"
         >
-            <h2 className="text-5xl font-bold mb-4">Prizes</h2>
-            <div className="max-w-3xl mx-auto flex flex-wrap justify-center items-center space-y-4">
-                <div className="flex items-center space-x-4">
+            <h2 className="text-5xl font-bold mb-12">Prizes</h2>
+            <div className="mx-auto flex flex-col justify-center items-center space-y-8 flex-wrap">
+                <div className="flex justify-center items-center flex-col mb-10">
                     <img
                         src={firstPrize}
                         alt="First Prize"
-                        className="w-24 h-24"
+                        className="w-24 h-24 mb-2"
                     />
-                    <p className="text-xl">
-                        Winner of Hackathon: INR 25K Amazon Gift Vouchers
-                    </p>
+                    <strong className="text-xl">Winner of Hackathon</strong>
+                    <p className="text-xl">INR 25K Amazon Gift Vouchers</p>
                 </div>
-                <div className="flex items-center space-x-4">
-                    <p className="text-xl">
-                        2nd Winner: INR 20K Amazon Gift Vouchers
-                    </p>
-                    <img
-                        src={secondPrize}
-                        alt="Second Prize"
-                        className="w-24 h-24"
-                    />
+                <div
+                    className="flex justify-center items-center flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8 my-10"
+                    style={{ gap: "30px" }}
+                >
+                    <div className="flex justify-center items-center flex-col m-10">
+                        <img
+                            src={secondPrize}
+                            alt="Second Prize"
+                            className="w-24 h-24 mb-2"
+                        />
+                        <strong className="text-xl">2nd Winner</strong>
+                        <p className="text-xl">INR 20K Amazon Gift Vouchers</p>
+                    </div>
+                    <div className="flex justify-center items-center flex-col sm:ml-8 mb-10">
+                        <img
+                            src={thirdPrize}
+                            alt="Third Prize"
+                            className="w-24 h-24 mb-2"
+                        />
+                        <strong className="text-xl">3rd Winner</strong>
+                        <p className="text-xl">INR 15K Amazon Gift Vouchers</p>
+                    </div>
                 </div>
-                <div className="flex items-center space-x-4 mb-10">
-                    <img
-                        src={thirdPrize}
-                        alt="Third Prize"
-                        className="w-24 h-24"
-                    />
-                    <p className="text-xl">
-                        3rd Winner: INR 15K Amazon Gift Vouchers
-                    </p>
-                </div>
-                <div className="flex items-center space-x-4 mt-10">
-                    <p className="text-xl">
-                        Top 10 entries: Goodie bag and guaranteed paid
-                        internship at Entelika or its sister companies.
+                <div className="flex justify-center items-center">
+                    <p className="text-xl text-center">
+                        <strong className="text-xl">Top 10 entries:</strong>{" "}
+                        Goodie bag and guaranteed paid internship at Entelika or
+                        its sister companies.
                     </p>
                 </div>
             </div>

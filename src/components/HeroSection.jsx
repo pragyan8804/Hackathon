@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import HeroImage from "../assets/images/HeroImage.jpeg";
 import HomeBg from "../assets/images/HomeBg.jpeg";
 
@@ -18,12 +19,14 @@ const HeroSection = () => {
                         Entelika AI Hackathon
                     </h1>
                     <p className="text-2xl mb-10">Vision Pulse 2024</p>
-                    <a
-                        href="#register"
-                        className="bg-white text-orange-400 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-orange-400 hover:text-white transition duration-300"
+                    <Link
+                        to="details"
+                        smooth={true}
+                        duration={500}
+                        className="bg-white text-orange-400 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-orange-400 hover:text-white transition duration-300 hover:cursor-pointer"
                     >
                         Register Now
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
