@@ -7,7 +7,7 @@ const AboutSection = () => {
             id="about"
             className="py-20 px-4 text-center md:min-h-screen flex flex-col justify-center bg-orange-100"
         >
-            <div className="flex flex-col md:flex-row items-center justify-center w-10/12 mx-auto">
+            <div className="flex flex-col md:flex-row items-center justify-center md:w-10/12 mx-auto">
                 <div className="md:w-1/2 p-10">
                     <h2 className="text-5xl font-bold mb-4">About Entelika</h2>
                     <p className="text-lg max-w-3xl mx-auto mb-4">

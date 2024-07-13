@@ -6,7 +6,7 @@ const EventDetails = () => {
             id="details"
             className="py-20 px-4 bg-gray-100 text-center min-h-screen flex flex-col items-center"
         >
-            <div className="w-10/12">
+            <div className="md:w-10/12 mx-auto">
                 <h2 className="text-5xl font-bold mb-10">Event Details</h2>
                 <p className="text-lg mx-auto mb-6 text-left">
                     The objective of the hackathon is to bring together the best
@@ -30,7 +30,7 @@ const EventDetails = () => {
                     solutions.
                 </p>
             </div>
-            <div className="flex flex-col lg:flex-row items-center justify-center lg:w-10/12 gap-6">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:w-10/12 gap-6 mx-auto">
                 <div className="bg-white p-6 border rounded-lg shadow-lg hover:shadow-xl transition duration-300 w-full md:w-1/2">
                     <h3 className="text-2xl font-bold mb-4">Key Details</h3>
                     <table className="table-auto w-full text-left text-sm lg:text-base">

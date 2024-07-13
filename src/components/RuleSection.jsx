@@ -4,7 +4,7 @@ const RuleSection = () => {
     return (
         <section
             id="rules"
-            className="py-20 px-4 bg-gray-100 min-h-screen flex flex-col justify-center w-10/12 mx-auto"
+            className="py-20 px-4 bg-gray-100 min-h-screen flex flex-col justify-center md:w-10/12 mx-auto"
         >
             <div className="w-full text-center">
                 <h2 className="text-5xl font-bold mb-10">Hackathon Rules</h2>

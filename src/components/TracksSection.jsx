@@ -12,7 +12,7 @@ const TracksSection = () => {
     return (
         <section
             id="tracks"
-            className="py-20 px-4 text-center  flex flex-col justify-center w-10/12 mx-auto"
+            className="py-20 px-4 text-center  flex flex-col justify-center md:w-10/12 mx-auto"
         >
             <h2 className="text-5xl font-bold my-10">Hackathon Tracks</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
