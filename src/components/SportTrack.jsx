@@ -176,7 +176,7 @@ const TableComponent = ({
                         className={index % 2 === 0 ? "bg-gray-50" : ""}
                     >
                         <td className="border px-4 py-2">{detail.name}</td>
-                        <td className="border px-4 py-2">{detail.value}</td>
+                        <td className="border px-2 py-2">{detail.value}</td>
                     </tr>
                 ))}
                 <tr className="font-bold">

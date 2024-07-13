@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="bg-orange-400 text-white p-4 text-center">
             <div className="flex sm:flex-row flex-col justify-between items-center w-10/12 mx-auto">
                 <img src={WhiteLogo} alt="Entelika Logo" className="h-10" />
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 sm:py-0 py-5">
                     <a
                         href="https://www.facebook.com/Entelika/"
                         target="_blank"
