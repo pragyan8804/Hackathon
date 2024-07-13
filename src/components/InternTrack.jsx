@@ -8,10 +8,11 @@ const InternTrack = () => {
             id="InternTrack"
             className="py-20 px-4 bg-gray-100 min-h-screen md:w-10/12 mx-auto"
         >
-            <div className="w-full text-center">
-                <h2 className="text-5xl font-bold mb-10">
-                    InternTrack - Smart Internship Recommendation Engine
-                </h2>
+            <div className="w-full text-center mb-10">
+                <h2 className="text-5xl font-bold mb-5">InternTrack</h2>
+                <p className="text-2xl">
+                    Smart Internship Recommendation Engine
+                </p>
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6 mb-12">

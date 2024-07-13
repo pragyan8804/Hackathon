@@ -8,11 +8,11 @@ const SportTrack = () => {
             id="SportTrack"
             className="py-20 px-4 bg-gray-100 min-h-screen md:w-10/12 mx-auto"
         >
-            <div className="w-full text-center">
-                <h2 className="text-5xl font-bold mb-10">
-                    SportTrack - Advanced Video Analysis for Athletic Activity
-                    Det
-                </h2>
+            <div className="w-full text-center flex flex-col mb-10">
+                <h2 className="text-5xl font-bold mb-5">SportTrack</h2>
+                <p className="text-2xl">
+                    Advanced Video Analysis for Athletic Activity Det
+                </p>
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6 mb-12">
