@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import HeroImage from "../assets/images/HeroImage.jpeg";
+import HeroImage from "../assets/images/HeroImage.png";
 import HomeBg from "../assets/images/HomeBg.png";
 
 const HeroSection = () => {

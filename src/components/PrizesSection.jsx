@@ -1,54 +1,73 @@
 import React from "react";
-import firstPrize from "../assets/images/1stPrize.png";
-import secondPrize from "../assets/images/2ndPrize.png";
-import thirdPrize from "../assets/images/3rdPrize.png";
+import PrizesSectionNewImage from "../assets/images/PrizesSectionNewImage.png";
+import StarIcon from "../assets/icon/StarIcon.png";
 
 const PrizesSection = () => {
     return (
         <section
             id="prizes"
-            className="py-20 px-4 bg-gray-100 text-center min-h-screen flex flex-col justify-center"
+            className="py-20 px-4 text-center md:min-h-screen flex flex-col justify-center bg-black"
         >
-            <h2 className="text-5xl font-bold mb-12">Prizes</h2>
-            <div className="mx-auto flex flex-col justify-center items-center space-y-8 flex-wrap">
-                <div className="flex justify-center items-center flex-col mb-10">
+            <h2 className="text-5xl font-bold mb-4 text-orange-400 self-start md:self-auto">
+                Prizes
+            </h2>
+            <div className="flex flex-col md:flex-row items-center justify-center md:w-10/12 mx-auto text-white">
+                <div className="md:w-1/2 p-10 w-10/12 text-lg">
+                    <ul className="text-left">
+                        <li className="flex items-center mb-8">
+                            <img
+                                src={StarIcon}
+                                alt="Star Icon"
+                                className="w-6 h-6 mr-2"
+                            />
+                            <span>
+                                1st Prize – INR 25K Amazon Gift Vouchers
+                            </span>
+                        </li>
+                        <li className="flex items-center mb-8">
+                            <img
+                                src={StarIcon}
+                                alt="Star Icon"
+                                className="w-6 h-6 mr-2"
+                            />
+                            <span>
+                                2nd Prize – INR 20K Amazon Gift Vouchers
+                            </span>
+                        </li>
+                        <li className="flex items-center mb-8">
+                            <img
+                                src={StarIcon}
+                                alt="Star Icon"
+                                className="w-6 h-6 mr-2"
+                            />
+                            <span>
+                                3rd Prize – INR 15K Amazon Gift Vouchers
+                            </span>
+                        </li>
+                        <li className="flex items-center mb-8">
+                            <img
+                                src={StarIcon}
+                                alt="Star Icon"
+                                className="w-6 h-6 mr-2"
+                            />
+                            <span>Top 10 entries: Goodie bag</span>
+                        </li>
+                        <li className="flex items-center mb-8">
+                            <img
+                                src={StarIcon}
+                                alt="Star Icon"
+                                className="w-6 h-6 mr-2"
+                            />
+                            <span>Paid internship Opportunities</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="w-full md:w-1/2 p-10">
                     <img
-                        src={firstPrize}
-                        alt="First Prize"
-                        className="w-24 h-24 mb-2"
+                        src={PrizesSectionNewImage}
+                        alt="Prizes Image"
+                        className="h-full w-full object-cover rounded"
                     />
-                    <strong className="text-xl">Winner of Hackathon</strong>
-                    <p className="text-xl">INR 25K Amazon Gift Vouchers</p>
-                </div>
-                <div
-                    className="flex justify-center items-center flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8 my-10"
-                    style={{ gap: "30px" }}
-                >
-                    <div className="flex justify-center items-center flex-col m-10">
-                        <img
-                            src={secondPrize}
-                            alt="Second Prize"
-                            className="w-24 h-24 mb-2"
-                        />
-                        <strong className="text-xl">2nd Winner</strong>
-                        <p className="text-xl">INR 20K Amazon Gift Vouchers</p>
-                    </div>
-                    <div className="flex justify-center items-center flex-col sm:ml-8 mb-10">
-                        <img
-                            src={thirdPrize}
-                            alt="Third Prize"
-                            className="w-24 h-24 mb-2"
-                        />
-                        <strong className="text-xl">3rd Winner</strong>
-                        <p className="text-xl">INR 15K Amazon Gift Vouchers</p>
-                    </div>
-                </div>
-                <div className="flex justify-center items-center">
-                    <p className="text-xl text-center">
-                        <strong className="text-xl">Top 10 entries:</strong>{" "}
-                        Goodie bag and guaranteed paid internship at Entelika or
-                        its sister companies.
-                    </p>
                 </div>
             </div>
         </section>

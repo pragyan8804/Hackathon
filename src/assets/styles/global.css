@@ -7,3 +7,93 @@
 body {
     @apply bg-background text-secondary font-sans;
 }
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee-item {
+    flex: none;
+    font-size: 2rem;
+    /* Adjust for responsive design */
+    font-weight: bold;
+    margin: 0 2rem;
+    /* Adjust margin for spacing */
+    color: transparent;
+    /* Ensure the text itself is transparent */
+    -webkit-text-stroke: 2px transparent;
+    /* Initial transparent stroke */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(165, 136, 255, 0.59) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke: 2px;
+    font-style: italic;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: normal;
+    /* Ensure proper line height */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 640px) {
+    .marquee-item {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .marquee-item {
+        font-size: 5rem;
+        margin: 0 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .marquee-item {
+        font-size: 6rem;
+        /* Adjusted to 6rem */
+        margin: 0 5rem;
+        /* Adjusted margin for spacing */
+    }
+}
+
+/* styles/globals.css */
+.btn-grad {
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

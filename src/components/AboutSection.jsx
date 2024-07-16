@@ -1,34 +1,39 @@
 import React from "react";
-import AboutUsImage from "../assets/images/AboutUsImage.jpeg";
+import AboutUsNewImage from "../assets/images/AboutUsNewImage.png";
+import GlobeIcon from "../assets/icon/GlobeIcon.png";
 
 const AboutSection = () => {
     return (
         <section
             id="about"
-            className="py-20 px-4 text-center md:min-h-screen flex flex-col justify-center bg-orange-100"
+            className="relative flex flex-col items-center justify-center h-screen"
+            style={{
+                backgroundImage: `url(${AboutUsNewImage})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+            }}
         >
-            <div className="flex flex-col md:flex-row items-center justify-center md:w-10/12 mx-auto">
-                <div className="md:w-1/2 p-10">
-                    <h2 className="text-5xl font-bold mb-4">About Entelika</h2>
-                    <p className="text-lg max-w-3xl mx-auto mb-4">
-                        Entelika is an AI-based digital product development
-                        firm. We enhance business processes and improve customer
-                        experiences by leveraging emerging technologies.
-                    </p>
-                    <a
-                        href="https://www.entelika.com"
-                        className="text-primary mt-4 inline-block hover:text-accent"
-                    >
-                        Visit our website
-                    </a>
-                </div>
-                <div className="w-full md:w-1/2">
+            <h2 className="text-orange-500 text-3xl md:text-6xl font-bold mb-4">
+                About Entelika
+            </h2>
+            <div className="bg-white bg-opacity-80 p-8 rounded-md w-3/5 text-center">
+                <p className="text-orange-500 text-lg md:text-2xl mb-6">
+                    <span className="text-xl md:text-5xl font-bold">E</span>
+                    ntelika is an AI-based digital product development firm. We
+                    enhance business processes and improve customer experiences
+                    by leveraging emerging technologies.
+                </p>
+                <a
+                    href="https://www.entelika.com"
+                    className="inline-flex items-center text-black bg-white hover:bg-gray-100 px-4 py-2 rounded-lg shadow"
+                >
                     <img
-                        src={AboutUsImage}
-                        alt="About Us Image"
-                        className="h-full w-full object-cover rounded"
+                        src={GlobeIcon}
+                        alt="Globe Icon"
+                        className="w-4 h-4 mr-2"
                     />
-                </div>
+                    Visit our website
+                </a>
             </div>
         </section>
     );

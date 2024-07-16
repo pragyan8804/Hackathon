@@ -85,7 +85,7 @@ const SportTrack = () => {
                 />
             </div>
 
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col xl:flex-row gap-6">
                 <TableComponent
                     topic="SportTrack - Topic 1"
                     title="Diverse Sports Activity Recognition"
@@ -153,38 +153,48 @@ const TableComponent = ({
     details,
     URL,
 }) => (
-    <div className="bg-white p-6 border rounded shadow-lg hover:shadow-xl transition duration-300">
-        <h1 className="text-3xl font-bold mb-4">{topic}</h1>
-        <h3 className="text-2xl font-bold mb-4">{title}</h3>
-        <p className="mb-4">
-            <strong>Objective :</strong> {objective}
-        </p>
-        <a href={URL} className="text-blue-400 mb-4">
-            <strong className="text-black">Dataset :</strong> {dataset}
-        </a>
-        <table className="table-auto w-full text-left">
-            <thead>
-                <tr className="bg-orange-500 text-white">
-                    <th className="px-4 py-2">Criterion</th>
-                    <th className="px-4 py-2">Points</th>
-                </tr>
-            </thead>
-            <tbody>
-                {details.map((detail, index) => (
-                    <tr
-                        key={index}
-                        className={index % 2 === 0 ? "bg-gray-50" : ""}
-                    >
-                        <td className="border px-4 py-2">{detail.name}</td>
-                        <td className="border px-2 py-2">{detail.value}</td>
+    <div className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-500 p-6 border rounded shadow-lg hover:shadow-xl transition duration-300 w-full xl:w-1/3 text-white flex flex-col justify-between">
+        <div className="mb-4">
+            <h1 className="text-3xl font-bold mb-4">{topic}</h1>
+            <h3 className="text-2xl font-bold mb-4">{title}</h3>
+            <p className="mb-4">
+                <strong>Objective :</strong> {objective}
+            </p>
+            <a href={URL} className="text-blue-300 mb-4">
+                <strong className="text-white">Dataset :</strong> {dataset}
+            </a>
+        </div>
+        <div>
+            <table className="table-auto w-full text-left text-black">
+                <thead>
+                    <tr className=" bg-blue-400 text-white">
+                        <th className="px-4 py-2">Criterion</th>
+                        <th className="px-4 py-2">Points</th>
                     </tr>
-                ))}
-                <tr className="font-bold">
-                    <td className="border px-4 py-2">Total Points</td>
-                    <td className="border px-4 py-2">{points}</td>
-                </tr>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    {details.map((detail, index) => (
+                        <tr
+                            key={index}
+                            className={
+                                index % 2 === 0 ? "bg-gray-50" : "bg-gray-200"
+                            }
+                        >
+                            <td className="border px-4 py-2">{detail.name}</td>
+                            <td className="border px-2 py-2">{detail.value}</td>
+                        </tr>
+                    ))}
+                    <tr className="font-bold">
+                        <td className="border px-4 py-2 bg-gray-300">
+                            Total Points
+                        </td>
+                        <td className="border px-4 py-2 bg-gray-300">
+                            {points}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 );
 

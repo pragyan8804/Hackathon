@@ -9,18 +9,27 @@ import Footer from "../components/Footer";
 import SportTrack from "../components/SportTrack";
 import InternTrack from "../components/InternTrack";
 import RuleSection from "../components/RuleSection";
+import TextMarquee from "../components/TextMarquee";
 
 const Home = () => {
     return (
         <>
             <Header />
             <HeroSection />
+            {/* <AboutSection /> */}
             <AboutSection />
+            {/* <EventDetails /> */}
             <EventDetails />
-            <RuleSection />
+            {/* <RuleSection /> */}
+            {/* <PrizesSection /> */}
+            <div className="bg-black">
+                <TextMarquee />
+            </div>
             <PrizesSection />
             <TracksSection />
+            {/* <SportTrack /> */}
             <SportTrack />
+            {/* <InternTrack /> */}
             <InternTrack />
             <Footer />
         </>
