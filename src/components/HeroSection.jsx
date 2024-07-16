@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-scroll";
 import HeroImage from "../assets/images/HeroImage.png";
 import HomeBg from "../assets/images/HomeBg.png";
+import TextMarquee from "./TextMarquee";
 
 const HeroSection = () => {
     return (
         <section
-            className="relative bg-black text-white text-center py-20 min-h-screen flex items-center justify-center"
+            className="relative bg-black text-white text-center py-20 min-h-screen items-center justify-center"
             style={{
                 backgroundImage: `url(${HomeBg})`,
                 backgroundSize: "cover",
@@ -14,7 +14,7 @@ const HeroSection = () => {
             }}
         >
             <div className="absolute inset-0 bg-black opacity-50"></div>
-            <div className="relative flex flex-col md:flex-row items-center justify-center w-10/12 mx-auto">
+            <div className="relative flex flex-col lg:flex-row items-center justify-center w-10/12 mx-auto">
                 <div className="w-full md:w-1/2">
                     <img
                         src={HeroImage}
@@ -29,16 +29,27 @@ const HeroSection = () => {
                     <p className="text-2xl mb-10 relative z-10">
                         Vision Pulse 2024
                     </p>
-                    <Link
-                        to="details"
-                        smooth={true}
-                        duration={500}
-                        className="bg-white text-orange-400 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-orange-400 hover:text-white transition duration-300 hover:cursor-pointer relative z-10"
+                    <p className="mb-10">
+                        We provide a unique opportunity for young engineering
+                        students to create groundbreaking solutions to the
+                        biggest issues in the manufacturing industry. Through
+                        our program, we offer training, mentorship, and
+                        recognition to top project teams, helping them reach
+                        their highest potential. If you are an ambitious,
+                        inventive individual with a passion for innovation, our
+                        hackathon is the perfect place for you to thrive.
+                    </p>
+                    <a
+                        href="https://forms.office.com/r/cFdUKLbGPk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-grad"
                     >
                         Register Now
-                    </Link>
+                    </a>
                 </div>
             </div>
+            <TextMarquee />
         </section>
     );
 };
