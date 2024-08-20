@@ -162,7 +162,12 @@ const TableComponent = ({
             <p className="mb-4">
                 <strong>Objective :</strong> {objective}
             </p>
-            <a href={URL} className="text-blue-300 mb-4">
+            <a
+                href={URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-300 mb-4"
+            >
                 <strong className="text-white">Dataset :</strong> {dataset}
             </a>
         </div>

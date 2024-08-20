@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
 
 const Rules = () => {
     return (
@@ -6,6 +8,15 @@ const Rules = () => {
             id="rules"
             className="py-20 px-4 bg-gray-100 min-h-screen flex flex-col justify-center md:w-10/12 mx-auto"
         >
+            <div className="w-full flex justify-start mb-4">
+                <Link
+                    to="/"
+                    className="text-black hover:text-orange-500 text-lg flex items-center"
+                >
+                    <FaArrowLeft className="mr-2" />
+                    Back
+                </Link>
+            </div>
             <div className="w-full text-center">
                 <h2 className="text-5xl font-bold mb-10">Hackathon Rules</h2>
             </div>

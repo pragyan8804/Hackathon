@@ -30,14 +30,16 @@ const HeroSection = () => {
                         Vision Pulse 2024
                     </p>
                     <p className="mb-10">
-                        We provide a unique opportunity for young engineering
-                        students to create groundbreaking solutions to the
-                        biggest issues in the manufacturing industry. Through
-                        our program, we offer training, mentorship, and
-                        recognition to top project teams, helping them reach
-                        their highest potential. If you are an ambitious,
-                        inventive individual with a passion for innovation, our
-                        hackathon is the perfect place for you to thrive.
+                        Join us for an exhilarating journey into the world of
+                        Artificial Intelligence and Machine Learning! This
+                        hackathon is designed exclusively for engineering
+                        students, providing a platform to showcase your
+                        innovative ideas, collaborate with like-minded peers,
+                        and solve real-world challenges. Whether you’re a
+                        seasoned coder or a passionate beginner, this event
+                        promises to ignite your creativity and push the
+                        boundaries of technology. Get ready to code, compete,
+                        and create the future! 🚀
                     </p>
                     <a
                         href="https://forms.office.com/r/cFdUKLbGPk"

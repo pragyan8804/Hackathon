@@ -25,6 +25,8 @@ const AboutSection = () => {
                 </p>
                 <a
                     href="https://www.entelika.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center text-black bg-white hover:bg-gray-100 px-4 py-2 rounded-lg shadow"
                 >
                     <img

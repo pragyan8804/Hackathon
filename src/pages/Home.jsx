@@ -10,27 +10,33 @@ import SportTrack from "../components/SportTrack";
 import InternTrack from "../components/InternTrack";
 import RuleSection from "../components/RuleSection";
 import TextMarquee from "../components/TextMarquee";
+import PoweredBySection from "../components/PoweredBySection";
 
 const Home = () => {
     return (
         <>
             <Header />
+
             <HeroSection />
-            {/* <AboutSection /> */}
+
+            <PoweredBySection />
+
             <AboutSection />
-            {/* <EventDetails /> */}
+
             <EventDetails />
-            {/* <RuleSection /> */}
-            {/* <PrizesSection /> */}
+
             <div className="bg-black">
                 <TextMarquee />
             </div>
+
             <PrizesSection />
+
             <TracksSection />
-            {/* <SportTrack /> */}
+
             <SportTrack />
-            {/* <InternTrack /> */}
+
             <InternTrack />
+
             <Footer />
         </>
     );

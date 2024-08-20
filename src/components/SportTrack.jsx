@@ -111,7 +111,7 @@ const SportTrack = () => {
                     points={25}
                     objective="Construct action recognition models specifically tailored for soccer, with
                              a focus on identifying and classifying common actions such as short passes, long passes, tackles, and scoring goals, among others."
-                    dataset="will be provided"
+                    dataset="to be provided"
                     URL=""
                     details={[
                         { name: "F1 Score", value: "8 points" },
@@ -160,7 +160,12 @@ const TableComponent = ({
             <p className="mb-4">
                 <strong>Objective :</strong> {objective}
             </p>
-            <a href={URL} className="text-blue-300 mb-4">
+            <a
+                href={URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-300 mb-4"
+            >
                 <strong className="text-white">Dataset :</strong> {dataset}
             </a>
         </div>

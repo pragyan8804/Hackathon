@@ -50,6 +50,7 @@ const EventDetails = () => {
                 </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-4 text-white">
+                {/* Key Details */}
                 <div
                     ref={(el) => (cardRefs.current[0] = el)}
                     className="bg-gradient-to-r from-gray-800 via-gray-600 to-blue-400 rounded-lg border-r-4 border-b-4 border-orange-500 p-6 text-left w-full lg:w-1/3 flex flex-col"
@@ -57,33 +58,39 @@ const EventDetails = () => {
                     <h3 className="text-2xl font-bold mb-4 text-orange-400">
                         Key Details
                     </h3>
-                    <p>
-                        Hackathon Event Name - Vision Pulse 2024, Entelika LLP
-                    </p>
-                    <p>Final Selection - 09 Aug 2024</p>
-                    <p>
-                        Registration Link -{" "}
-                        <a
-                            href="https://forms.office.com/r/cFdUKLbGPk"
-                            className="text-blue-500 hover:text-blue-400"
-                        >
-                            Register Here
-                        </a>
-                    </p>
-                    <p>
-                        Final Event Location - Online/Main Auditorium, NIE,
-                        Mysore
-                    </p>
-                    <p>
-                        Organizing Team Details - Prof. Rampur Srinath (NIE,
-                        Mysuru) - Ms. NagaSwetha Devarakonda (Director, Entelika
-                        LLP) - Ms. Ashwani Ittuveetil (Director, Entelika LLP)
-                    </p>
-                    <p>
-                        Chief Guest for Final Section Evaluation - Mr. Leandro
-                        Ferreira Heroso (Houston, US)
-                    </p>
+                    <ul className="list-disc list-inside mb-6 flex-grow">
+                        <li>
+                            Hackathon Event Name - Vision Pulse 2024, Entelika
+                            LLP
+                        </li>
+                        {/* <li>Final Selection - 09 Aug 2024</li> */}
+                        <li>
+                            Registration Link -{" "}
+                            <a
+                                href="https://forms.office.com/r/cFdUKLbGPk"
+                                className="text-blue-500 hover:text-blue-400"
+                            >
+                                Register Here
+                            </a>
+                        </li>
+                        <li>
+                            Final Event Location - Online/Main Auditorium, NIE,
+                            Mysore
+                        </li>
+                        <li>
+                            Organizing Team Details - Prof. Rampur Srinath (NIE,
+                            Mysuru) - Ms. NagaSwetha Devarakonda (Director,
+                            Entelika LLP) - Ms. Ashwani Ittuveetil (Director,
+                            Entelika LLP)
+                        </li>
+                        <li>
+                            Chief Guest for Final Section Evaluation - Mr.
+                            Leandro Ferreira Heroso (Houston, US)
+                        </li>
+                    </ul>
                 </div>
+
+                {/* Key Dates */}
                 <div
                     ref={(el) => (cardRefs.current[1] = el)}
                     className="bg-gradient-to-r from-gray-800 via-gray-600 to-blue-400 rounded-lg border-r-4 border-b-4 border-orange-500 p-6 text-left w-full lg:w-1/3 flex flex-col"
@@ -91,18 +98,23 @@ const EventDetails = () => {
                     <h3 className="text-2xl font-bold mb-4 text-orange-400">
                         Key Dates
                     </h3>
-                    <p>
-                        Last date for online registration - 26 Jul 2024 5 PM IST
-                    </p>
-                    <p>
-                        First round of selection by college (3 teams per
-                        college) - 02 Aug 2024 5 PM IST
-                    </p>
-                    <p>
-                        Final presentation round (Online + NIE College
-                        Auditorium) - 10 Aug 2024 5 PM IST onwards
-                    </p>
+                    <ul className="list-disc list-inside mb-6 flex-grow">
+                        <li>
+                            Last date for online registration - 14th September
+                            2024 5 PM IST
+                        </li>
+                        <li>
+                            First round of selection by college (3 teams per
+                            college) - 21st September 2024
+                        </li>
+                        <li>
+                            Final presentation round (Online + NIE College
+                            Auditorium) - 28th September 2024
+                        </li>
+                    </ul>
                 </div>
+
+                {/* Hackathon Rules */}
                 <div
                     ref={(el) => (cardRefs.current[2] = el)}
                     className="bg-gradient-to-r from-gray-800 via-gray-600 to-blue-400 rounded-lg border-r-4 border-b-4 border-orange-500 p-6 text-left w-full lg:w-1/3 flex flex-col"
