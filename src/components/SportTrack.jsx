@@ -40,7 +40,7 @@ const SportTrack = () => {
                     <ul className="list-disc list-inside">
                         <li className="mb-2">
                             <strong className="text-lg">
-                                Topic 1 "Diverse Sports Activity Recognition“
+                                Topic 1: "Diverse Sports Activity Recognition“
                             </strong>
                             <p>
                                 Objective: Construct action recognition models
@@ -51,7 +51,7 @@ const SportTrack = () => {
                         </li>
                         <li className="mb-2">
                             <strong className="text-lg">
-                                Topic 2 "Soccer Action Recognition"
+                                Topic 2: "Soccer Action Recognition"
                             </strong>
                             <p>
                                 Objective: Construct action recognition models
@@ -64,7 +64,7 @@ const SportTrack = () => {
 
                         <li className="mb-2">
                             <strong className="text-lg">
-                                Topic 3 "Player Tracking and Action
+                                Topic 3: "Player Tracking and Action
                                 Identification“
                             </strong>
                             <p>

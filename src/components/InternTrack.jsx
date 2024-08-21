@@ -106,11 +106,12 @@ const InternTrack = () => {
                     objective="Develop a recommendation engine that provides personalized internship recommendations based on each student's unique profile, including skills, location, salary expectations, and industry interests. Utilize advanced algorithms and machine learning techniques to analyze and match students with internship opportunities that align with their career goals."
                     dataset="To be provided"
                     URL=""
-                    points={15}
+                    points={25}
                     details={[
                         { name: "Accuracy", value: "5 points" },
                         { name: "Space Complexity", value: "5 points" },
                         { name: "Time Complexity", value: "5 points" },
+                        { name: "Layout Agnostic", value: "10 points" },
                     ]}
                 />
                 <TableComponent
@@ -119,12 +120,12 @@ const InternTrack = () => {
                     objective="Develop a recommendation engine that matches students with internship opportunities based on the skills listed in their resumes. Utilize natural language processing (NLP) techniques to extract skills from resumes and match them with internship requirements. Explore methods for skill assessment, matching, and recommendation to enhance internship relevance and fit."
                     dataset="To be provided"
                     URL=""
-                    points={20}
+                    points={25}
                     details={[
                         { name: "Accuracy", value: "5 points" },
                         { name: "Space Complexity", value: "5 points" },
                         { name: "Time Complexity", value: "5 points" },
-                        { name: "Layout Agnostic", value: "5 points" },
+                        { name: "Layout Agnostic", value: "10 points" },
                     ]}
                 />
                 <TableComponent
