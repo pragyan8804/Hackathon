@@ -6,6 +6,7 @@ import TextMarquee from "./TextMarquee";
 const HeroSection = () => {
     return (
         <section
+            id="home"
             className="relative bg-black text-white text-center py-20 min-h-screen items-center justify-center"
             style={{
                 backgroundImage: `url(${HomeBg})`,

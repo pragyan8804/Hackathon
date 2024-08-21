@@ -38,7 +38,13 @@ const Header = () => {
             }`}
         >
             <div className="flex justify-between items-center w-10/12 mx-auto">
-                <img src={logo} alt="Entelika Logo" className="h-10" />
+                <Link to="home" smooth={true} duration={500}>
+                    <img
+                        src={logo}
+                        alt="Entelika Logo"
+                        className="h-10 cursor-pointer"
+                    />
+                </Link>
                 <nav className="hidden md:flex">
                     <Link
                         to="about"
