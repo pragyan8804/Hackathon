@@ -10,7 +10,9 @@ const PoweredBySection = () => {
                 <h2 className="text-4xl font-bold text-gray-800">
                     Entelika AI Hackathon
                 </h2>
-                <h2 className="text-3xl font-bold text-gray-800">Powered By</h2>
+                <h2 className="text-3xl font-bold text-gray-800">
+                    in Collabaratiion with
+                </h2>
             </div>{" "}
             <div className="flex flex-col md:flex-row justify-center items-center gap-12">
                 {/* CSI Card */}

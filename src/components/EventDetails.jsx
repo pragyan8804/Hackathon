@@ -78,10 +78,15 @@ const EventDetails = () => {
                             Mysore
                         </li>
                         <li>
-                            Organizing Team Details - Prof. Rampur Srinath (NIE,
-                            Mysuru) - Ms. NagaSwetha Devarakonda (Director,
-                            Entelika LLP) - Ms. Ashwani Ittuveetil (Director,
-                            Entelika LLP)
+                            Organizing Team Details
+                            <ul className="list-[circle] ml-6 mt-2">
+                                <li>Prof. Rampur Srinath (NIE, Mysuru)</li>
+                                <li>Ms. Swetha DN (Director, Entelika LLP)</li>
+                                <li>
+                                    Ms. Ashwani Ittuveetil (Director, Entelika
+                                    LLP)
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             Chief Guest for Final Section Evaluation - Mr.
@@ -100,16 +105,16 @@ const EventDetails = () => {
                     </h3>
                     <ul className="list-disc list-inside mb-6 flex-grow">
                         <li>
-                            Last date for online registration - 14th September
-                            2024 5 PM IST
+                            Last date for online registration - 14<sup>th </sup>
+                            September 2024 5 PM IST
                         </li>
                         <li>
                             First round of selection by college (3 teams per
-                            college) - 21st September 2024
+                            college) - 21<sup>st </sup> September 2024
                         </li>
                         <li>
                             Final presentation round (Online + NIE College
-                            Auditorium) - 28th September 2024
+                            Auditorium) - 28<sup>th </sup> September 2024
                         </li>
                     </ul>
                 </div>
