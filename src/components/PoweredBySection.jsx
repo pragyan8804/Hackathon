@@ -11,31 +11,32 @@ const PoweredBySection = () => {
                     Entelika AI Hackathon
                 </h2>
                 <h2 className="text-3xl font-bold text-gray-800">
-                    in Collabaratiion with
+                    in Collaboration with
                 </h2>
             </div>{" "}
             <div className="flex flex-col md:flex-row justify-center items-center gap-12">
-                {/* CSI Card */}
+                {/* NIE Card */}
                 <div className="bg-white rounded-lg shadow-lg p-8 text-center transition-transform transform hover:-translate-y-1 hover:shadow-2xl w-64 h-80">
                     <a
-                        href="https://csiindia.org/home/index"
+                        href="https://nie.ac.in/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block mb-6"
                     >
                         <img
-                            src={CsiLogo}
-                            alt="CSI Logo"
+                            src={NieLogo}
+                            alt="NIE Logo"
                             className="h-32 mx-auto"
                         />
                     </a>
                     <p className="text-gray-500 text-sm mt-3">
-                        Computer Society of India (CSI)
+                        National Institute of Engineering
                     </p>
-                    <p className="mt-6 text-lg font-semibold text-gray-800">
-                        J G Venkatesh
+                    <p className="text-gray-500 text-sm">(Department of ISE)</p>
+                    {/* <p className="mt-6 text-lg font-semibold text-gray-800">
+                        Rampur Srinath
                     </p>
-                    <p className="text-gray-500 text-sm">Vice Chairman</p>
+                    <p className="text-gray-500 text-sm">Prof. NIE</p> */}
                 </div>
 
                 {/* IEI Card */}
@@ -55,33 +56,33 @@ const PoweredBySection = () => {
                     <p className="text-gray-500 text-sm mt-3">
                         Institution of Engineers (India)
                     </p>
-                    <p className="mt-6 text-lg font-semibold text-gray-800">
+                    {/* <p className="mt-6 text-lg font-semibold text-gray-800">
                         Dr Deepu R
                     </p>
-                    <p className="text-gray-500 text-sm">IEI President</p>
+                    <p className="text-gray-500 text-sm">IEI President</p> */}
                 </div>
 
-                {/* NIE Card */}
+                {/* CSI Card */}
                 <div className="bg-white rounded-lg shadow-lg p-8 text-center transition-transform transform hover:-translate-y-1 hover:shadow-2xl w-64 h-80">
                     <a
-                        href="https://nie.ac.in/"
+                        href="https://csiindia.org/home/index"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block mb-6"
                     >
                         <img
-                            src={NieLogo}
-                            alt="NIE Logo"
+                            src={CsiLogo}
+                            alt="CSI Logo"
                             className="h-32 mx-auto"
                         />
                     </a>
                     <p className="text-gray-500 text-sm mt-3">
-                        National Institute of Engineering
+                        Computer Society of India (CSI Mysore chapter)
                     </p>
-                    <p className="mt-6 text-lg font-semibold text-gray-800">
-                        Rampur Srinath
+                    {/* <p className="mt-6 text-lg font-semibold text-gray-800">
+                        J G Venkatesh
                     </p>
-                    <p className="text-gray-500 text-sm">Prof. NIE</p>
+                    <p className="text-gray-500 text-sm">Vice Chairman</p> */}
                 </div>
             </div>
         </div>
