@@ -15,37 +15,37 @@ import Winners from "../components/Winners";
 import HackathonImages from "../components/HackathonImages";
 
 const Home = () => {
-    return (
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            <HeroSection />
+      <HeroSection />
 
-            <Winners />
+      <Winners />
 
-            <HackathonImages />
+      <HackathonImages />
 
-            <EventDetails />
+      <EventDetails />
 
-            <PoweredBySection />
+      <PoweredBySection />
 
-            <TracksSection />
+      {/* <TracksSection /> */}
 
-            <SportTrack />
+      {/* <SportTrack /> */}
 
-            <InternTrack />
+      {/* <InternTrack /> */}
 
-            <PrizesSection />
+      {/* <PrizesSection /> */}
 
-            <div className="bg-black">
-                <TextMarquee />
-            </div>
+      <div className="bg-background">
+        <TextMarquee />
+      </div>
 
-            <AboutSection />
+      <AboutSection />
 
-            <Footer />
-        </>
-    );
+      <Footer />
+    </>
+  );
 };
 
 export default Home;
