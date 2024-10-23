@@ -28,7 +28,7 @@ const HeroSection = () => {
         </div>
 
         {/* Text Section */}
-        <div className="md:w-1/2 flex flex-col justify-center items-center px-8 my-10">
+        <div className="md:w-1/2 flex flex-col justify-center items-center text-center px-8 my-10">
           <h1 className="text-5xl font-bold mb-6">Entelika AI Hackathon</h1>
           <p className="text-2xl mb-5">Sparc 2024</p>
           <p className="mb-1">

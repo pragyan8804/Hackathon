@@ -12,7 +12,7 @@ const winnersData = [
     image: first,
   },
   {
-    rank: "Runner Up",
+    rank: "First Runner Up",
     college: "The National Institute of Engineering, Mysore",
     project: "Soccer Action Recognition",
     members: "Shivaprasad, Darshan Y, Abhishek M B, Vinay K V",
@@ -55,9 +55,14 @@ const Winners = () => {
 
             {/* Content */}
             <div className="w-full lg:w-1/2 px-6 flex flex-col justify-center text-center">
-              <h2 className="text-3xl lg:text-4xl mb-5">{winner.rank}</h2>
+              <h2 className="text-3xl lg:text-4xl mb-5 font-semibold">
+                {winner.rank}
+              </h2>
               <p className="text-lg mb-5">{winner.college}</p>
-              <p className="text-lg italic mb-5">{winner.project}</p>
+              <p className="text-lg mb-5">
+                <strong>Topic:</strong>{" "}
+                <span className="italic">{winner.project}</span>
+              </p>
               <p className="text-gray-400">{winner.members}</p>
             </div>
           </div>
