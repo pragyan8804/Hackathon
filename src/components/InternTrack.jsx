@@ -9,7 +9,9 @@ const InternTrack = () => {
             className="py-20 px-4 bg-gray-100 min-h-screen md:w-10/12 mx-auto"
         >
             <div className="w-full text-center flex flex-col mb-10">
-                <h2 className="text-5xl font-bold mb-5">InternTrack</h2>
+                <h2 className="text-5xl font-bold mb-5">
+                    Workforce Value Stream
+                </h2>
                 <p className="text-2xl">
                     Smart Internship Recommendation Engine
                 </p>
@@ -23,11 +25,11 @@ const InternTrack = () => {
                 />
                 <div className="w-full lg:w-1/2 text-left">
                     <p className="text-lg mb-6">
-                        "InternTrack" is aimed to revolutionize the internship
-                        search process for students. Participants are expected
-                        to build a smart internship recommendation engine
-                        utilizing advanced algorithms and machine learning
-                        techniques to provide personalized internship
+                        "Workforce Value Stream" is aimed to revolutionize the
+                        internship search process for students. Participants are
+                        expected to build a smart internship recommendation
+                        engine utilizing advanced algorithms and machine
+                        learning techniques to provide personalized internship
                         recommendations tailored to each student's unique
                         profile and preferences by analyzing factors such as
                         skills, location, salary expectations, and industry
@@ -101,7 +103,7 @@ const InternTrack = () => {
 
             <div className="flex flex-col xl:flex-row gap-6">
                 <TableComponent
-                    topic="InternTrack - Topic 1"
+                    topic="Workforce - Topic 1"
                     title="Personalized Internship Recommendations"
                     objective="Develop a recommendation engine that provides personalized internship recommendations based on each student's unique profile, including skills, location, salary expectations, and industry interests. Utilize advanced algorithms and machine learning techniques to analyze and match students with internship opportunities that align with their career goals."
                     dataset="To be provided"
@@ -115,7 +117,7 @@ const InternTrack = () => {
                     ]}
                 />
                 <TableComponent
-                    topic="InternTrack - Topic 2"
+                    topic="Workforce - Topic 2"
                     title="Resume-Based Internship Matching"
                     objective="Develop a recommendation engine that matches students with internship opportunities based on the skills listed in their resumes. Utilize natural language processing (NLP) techniques to extract skills from resumes and match them with internship requirements. Explore methods for skill assessment, matching, and recommendation to enhance internship relevance and fit."
                     dataset="To be provided"
@@ -129,7 +131,7 @@ const InternTrack = () => {
                     ]}
                 />
                 <TableComponent
-                    topic="InternTrack - Topic 3"
+                    topic="Workforce - Topic 3"
                     title="Job Portal Parsing for Skill-Centric Job Recommendations"
                     objective="Develop approaches for parsing through any career portal and recommending jobs based on user-provided skills. Utilize natural language processing (NLP) techniques to extract skills from user inputs and match them with job requirements. Explore algorithms and methodologies to enhance the relevance and fit of job recommendations based on user-provided skills."
                     dataset="To be provided"

@@ -9,7 +9,7 @@ const SportTrack = () => {
             className="py-20 px-4 bg-gray-100 min-h-screen md:w-10/12 mx-auto"
         >
             <div className="w-full text-center flex flex-col mb-10">
-                <h2 className="text-5xl font-bold mb-5">SportTrack</h2>
+                <h2 className="text-5xl font-bold mb-5">Sport Value Stream</h2>
                 <p className="text-2xl">
                     Advanced Video Analysis for Athletic Activity Det
                 </p>
@@ -23,11 +23,11 @@ const SportTrack = () => {
                 />
                 <div className="w-full lg:w-1/2 text-left">
                     <p className="text-lg mb-6">
-                        "SportTrack" offers an innovative platform for advanced
-                        video analysis in sports, emphasizing athletic activity
-                        detection. Participants explore cutting-edge algorithms
-                        to classify activities like running, jumping, and
-                        kicking. Leveraging computer vision and machine
+                        "Sport Value Stream" offers an innovative platform for
+                        advanced video analysis in sports, emphasizing athletic
+                        activity detection. Participants explore cutting-edge
+                        algorithms to classify activities like running, jumping,
+                        and kicking. Leveraging computer vision and machine
                         learning, they tackle challenges in analyzing sports
                         footage.
                     </p>
@@ -87,7 +87,7 @@ const SportTrack = () => {
 
             <div className="flex flex-col xl:flex-row gap-6">
                 <TableComponent
-                    topic="SportTrack - Topic 1"
+                    topic="Sport - Topic 1"
                     title="Diverse Sports Activity Recognition"
                     objective="Construct action recognition models for a diverse range of sports activities, encompassing various athletic
                     movements and actions across different sports disciplines."
@@ -106,7 +106,7 @@ const SportTrack = () => {
                     ]}
                 />
                 <TableComponent
-                    topic="SportTrack - Topic 2"
+                    topic="Sport - Topic 2"
                     title="Soccer Action Recognition"
                     points={25}
                     objective="Construct action recognition models specifically tailored for soccer, with
@@ -125,11 +125,15 @@ const SportTrack = () => {
                     ]}
                 />
                 <TableComponent
-                    topic="SportTrack - Topic 3"
+                    topic="Sport - Topic 3"
                     title="Player Tracking and Action Identification"
                     points={25}
-                    objective="Design a recommendation engine that prioritizes
-                            internship opportunities based on geographical location. Develop algorithms to consider factors such as proximity to the student's location, transportation accessibility, and regional job market trends. Provide personalized internship recommendations that optimize for convenience and accessibility for students."
+                    objective="Implement player tracking algorithms
+                                to pin down a specific player in a video of
+                                diverse zoom levels. Identify and classify the
+                                actions performed by the tracked player across
+                                different zoom levels, providing insights into
+                                player movements and behaviors during gameplay."
                     dataset="to be provided"
                     URL=""
                     details={[

@@ -47,28 +47,20 @@ const Header = () => {
                 </Link>
                 <nav className="hidden md:flex">
                     <Link
-                        to="about"
-                        smooth={true}
-                        duration={500}
-                        className="text-white mx-4 cursor-pointer hover:text-orange-400"
-                    >
-                        About
-                    </Link>
-                    <Link
                         to="details"
                         smooth={true}
                         duration={500}
                         className="text-white mx-4 cursor-pointer hover:text-orange-400"
                     >
-                        Details
+                        Event Info
                     </Link>
                     <Link
-                        to="prizes"
+                        to="partners"
                         smooth={true}
                         duration={500}
                         className="text-white mx-4 cursor-pointer hover:text-orange-400"
                     >
-                        Prizes
+                        Our Partners
                     </Link>
                     <Link
                         to="tracks"
@@ -76,7 +68,24 @@ const Header = () => {
                         duration={500}
                         className="text-white mx-4 cursor-pointer hover:text-orange-400"
                     >
-                        Tracks
+                        Value Streams
+                    </Link>
+                    <Link
+                        to="prizes"
+                        smooth={true}
+                        duration={500}
+                        className="text-white mx-4 cursor-pointer hover:text-orange-400"
+                    >
+                        Awards
+                    </Link>
+
+                    <Link
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                        className="text-white mx-4 cursor-pointer hover:text-orange-400"
+                    >
+                        About
                     </Link>
                 </nav>
                 <div className="md:hidden">
@@ -113,31 +122,22 @@ const Header = () => {
                 <div className="flex flex-col justify-around h-full p-4">
                     <nav className="flex flex-col items-center space-y-4 mt-10 text-2xl">
                         <Link
-                            to="about"
-                            smooth={true}
-                            duration={500}
-                            className="cursor-pointer hover:text-orange-400"
-                            onClick={toggleMenu}
-                        >
-                            About
-                        </Link>
-                        <Link
                             to="details"
                             smooth={true}
                             duration={500}
                             className="cursor-pointer hover:text-orange-400"
                             onClick={toggleMenu}
                         >
-                            Details
+                            Event Info
                         </Link>
                         <Link
-                            to="prizes"
+                            to="partners"
                             smooth={true}
                             duration={500}
                             className="cursor-pointer hover:text-orange-400"
                             onClick={toggleMenu}
                         >
-                            Prizes
+                            Our Partners
                         </Link>
                         <Link
                             to="tracks"
@@ -146,7 +146,26 @@ const Header = () => {
                             className="cursor-pointer hover:text-orange-400"
                             onClick={toggleMenu}
                         >
-                            Tracks
+                            Value Streams
+                        </Link>
+                        <Link
+                            to="prizes"
+                            smooth={true}
+                            duration={500}
+                            className="cursor-pointer hover:text-orange-400"
+                            onClick={toggleMenu}
+                        >
+                            Awards
+                        </Link>
+
+                        <Link
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            className="cursor-pointer hover:text-orange-400"
+                            onClick={toggleMenu}
+                        >
+                            About
                         </Link>
                     </nav>
                     <div className="flex justify-center space-x-4 mt-10">

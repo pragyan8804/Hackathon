@@ -9,7 +9,7 @@ const PrizesSection = () => {
             className="py-20 px-4 text-center md:min-h-screen flex flex-col justify-center bg-black"
         >
             <h2 className="text-5xl font-bold mb-4 text-orange-400 self-start md:self-auto">
-                Prizes
+                Awards
             </h2>
             <div className="flex flex-col md:flex-row items-center justify-center md:w-10/12 mx-auto text-white">
                 <div className="md:w-1/2 p-10 w-10/12 text-lg">
@@ -21,7 +21,7 @@ const PrizesSection = () => {
                                 className="w-6 h-6 mr-2"
                             />
                             <span>
-                                1st Prize – INR 25K Amazon Gift Vouchers
+                                1st Prize – INR 25,000.00 Amazon Gift Vouchers
                             </span>
                         </li>
                         <li className="flex items-center mb-8">
@@ -31,7 +31,7 @@ const PrizesSection = () => {
                                 className="w-6 h-6 mr-2"
                             />
                             <span>
-                                2nd Prize – INR 20K Amazon Gift Vouchers
+                                2nd Prize – INR 20,000.00 Amazon Gift Vouchers
                             </span>
                         </li>
                         <li className="flex items-center mb-8">
@@ -41,7 +41,7 @@ const PrizesSection = () => {
                                 className="w-6 h-6 mr-2"
                             />
                             <span>
-                                3rd Prize – INR 15K Amazon Gift Vouchers
+                                3rd Prize – INR 15,000.00 Amazon Gift Vouchers
                             </span>
                         </li>
                         <li className="flex items-center mb-8">
@@ -58,7 +58,7 @@ const PrizesSection = () => {
                                 alt="Star Icon"
                                 className="w-6 h-6 mr-2"
                             />
-                            <span>Paid internship Opportunities</span>
+                            <span>Paid internship opportunities</span>
                         </li>
                     </ul>
                 </div>

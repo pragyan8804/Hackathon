@@ -6,10 +6,10 @@ const TextMarquee = () => {
             <div className="marquee">
                 <div className="marquee-content">
                     <span className="marquee-item">
-                        Entelika AI Hackathon Vision Pulse 2024
+                        Entelika AI Hackathon: Sparc 2024
                     </span>
                     <span className="marquee-item">
-                        Entelika AI Hackathon Vision Pulse 2024
+                        Entelika AI Hackathon: Sparc 2024
                     </span>
                 </div>
             </div>

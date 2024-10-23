@@ -51,8 +51,15 @@ const Rules = () => {
                     </li>
                     <li className="mb-4">
                         Registration is required for participation, and teams
-                        can register using the provided link [Insert
-                        Registration Link].
+                        can register using the provided link{" "}
+                        <a
+                            href="https://forms.office.com/r/cFdUKLbGPk"
+                            className="text-blue-400 hover:text-blue-500"
+                        >
+                            {" "}
+                            https://forms.office.com/r/cFdUKLbGPk
+                        </a>
+                        .
                     </li>
                     <li className="mb-4">
                         Teams can consist of a maximum of 4 participants and a

@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/images/HeroImage.png";
+import HeroWinners from "../assets/images/HeroWinnersImage.png";
 import HomeBg from "../assets/images/HomeBg.png";
 import TextMarquee from "./TextMarquee";
 
@@ -7,7 +8,7 @@ const HeroSection = () => {
     return (
         <section
             id="home"
-            className="relative bg-black text-white text-center py-20 min-h-screen items-center justify-center"
+            className="relative bg-black text-white text-center py-5 lg:min-h-screen items-center justify-center"
             style={{
                 backgroundImage: `url(${HomeBg})`,
                 backgroundSize: "cover",
@@ -18,7 +19,7 @@ const HeroSection = () => {
             <div className="relative flex flex-col lg:flex-row items-center justify-center w-10/12 mx-auto">
                 <div className="w-full md:w-1/2">
                     <img
-                        src={HeroImage}
+                        src={HeroWinners}
                         alt="Hero Image"
                         className="h-full w-full object-cover rounded"
                     />
@@ -27,29 +28,22 @@ const HeroSection = () => {
                     <h1 className="text-5xl font-bold mb-6 relative z-10">
                         Entelika AI Hackathon
                     </h1>
-                    <p className="text-2xl mb-10 relative z-10">
-                        Vision Pulse 2024
+                    <p className="text-2xl mb-5 relative z-10">Sparc 2024</p>
+                    <p className="mb-1">
+                        Are you passionate about artificial intelligence and
+                        eager to turn your innovative ideas into reality? Join
+                        us for an exhilarating AI Hackathon designed exclusively
+                        for engineering minds who are ready to push the
+                        boundaries of technology and creativity.
                     </p>
                     <p className="mb-10">
-                        Join us for an exhilarating journey into the world of
-                        Artificial Intelligence and Machine Learning! This
-                        hackathon is designed exclusively for engineering
-                        students, providing a platform to showcase your
-                        innovative ideas, collaborate with like-minded peers,
-                        and solve real-world challenges. Whether you’re a
-                        seasoned coder or a passionate beginner, this event
-                        promises to ignite your creativity and push the
-                        boundaries of technology. Get ready to code, compete,
-                        and create the future! 🚀
+                        Whether you’re a seasoned coder or just starting out,
+                        this is your chance to collaborate with like-minded
+                        peers, tackle real-world challenges, and showcase your
+                        skills. Dive into a dynamic environment where your ideas
+                        can flourish and have a tangible impact on the future of
+                        AI. Get ready to code, compete, and create the future!
                     </p>
-                    <a
-                        href="https://forms.office.com/r/cFdUKLbGPk"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-grad"
-                    >
-                        Register Now
-                    </a>
                 </div>
             </div>
             <TextMarquee />

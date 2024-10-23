@@ -25,10 +25,10 @@ const EventDetails = () => {
                     Event Details
                 </h2>
                 <div className="w-full lg:w-2/3">
-                    <p className="text-md mx-auto mb-6 text-left">
+                    <p className="text-lg mx-auto mb-6 text-left">
                         The objective of the hackathon is to bring together the
-                        best minds from Engineering colleges in Mysore to
-                        provide innovative solutions to key business problems.
+                        best minds from Engineering colleges in India to provide
+                        innovative solutions to key business problems.
                         Participants are invited to join either of the two
                         tracks: Video Activity Analysis and Recommendation.
                     </p>
@@ -59,10 +59,7 @@ const EventDetails = () => {
                         Key Details
                     </h3>
                     <ul className="list-disc list-inside mb-6 flex-grow">
-                        <li>
-                            Hackathon Event Name - Vision Pulse 2024, Entelika
-                            LLP
-                        </li>
+                        <li>Hackathon Event Name - Sparc 2024, Entelika LLP</li>
                         {/* <li>Final Selection - 09 Aug 2024</li> */}
                         <li>
                             Registration Link -{" "}
@@ -105,16 +102,16 @@ const EventDetails = () => {
                     </h3>
                     <ul className="list-disc list-inside mb-6 flex-grow">
                         <li>
-                            Last date for online registration - 14<sup>th </sup>
+                            Last date for online registration - 29<sup>th </sup>
                             September 2024 5 PM IST
                         </li>
                         <li>
                             First round of selection by college (3 teams per
-                            college) - 21<sup>st </sup> September 2024
+                            college) - 12<sup>th </sup> October 2024
                         </li>
                         <li>
                             Final presentation round (Online + NIE College
-                            Auditorium) - 28<sup>th </sup> September 2024
+                            Auditorium) - 19<sup>th </sup> October 2024
                         </li>
                     </ul>
                 </div>
@@ -129,11 +126,11 @@ const EventDetails = () => {
                     </h3>
                     <ul className="list-disc list-inside mb-6 flex-grow">
                         <li className="mb-2">
-                            The hackathon is structured with two tracks: Video
-                            Analysis and Recommendation.
+                            The hackathon is structured with two value streams:
+                            Video Analysis and Recommendation.
                         </li>
                         <li className="mb-2">
-                            Each track features three different problem
+                            Each stream features three different problem
                             statements, providing participants with a variety of
                             options to choose from.
                         </li>

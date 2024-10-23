@@ -11,6 +11,8 @@ import InternTrack from "../components/InternTrack";
 import RuleSection from "../components/RuleSection";
 import TextMarquee from "../components/TextMarquee";
 import PoweredBySection from "../components/PoweredBySection";
+import Winners from "../components/Winners";
+import HackathonImages from "../components/HackathonImages";
 
 const Home = () => {
     return (
@@ -19,23 +21,27 @@ const Home = () => {
 
             <HeroSection />
 
-            <PoweredBySection />
+            <Winners />
 
-            <AboutSection />
+            <HackathonImages />
 
             <EventDetails />
 
-            <div className="bg-black">
-                <TextMarquee />
-            </div>
-
-            <PrizesSection />
+            <PoweredBySection />
 
             <TracksSection />
 
             <SportTrack />
 
             <InternTrack />
+
+            <PrizesSection />
+
+            <div className="bg-black">
+                <TextMarquee />
+            </div>
+
+            <AboutSection />
 
             <Footer />
         </>

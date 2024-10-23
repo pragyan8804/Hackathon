@@ -5,13 +5,13 @@ import NieLogo from "../assets/logo/NieLogo.jpeg";
 
 const PoweredBySection = () => {
     return (
-        <div className="bg-gray-100 py-16">
+        <div id="partners" className="bg-gray-100 py-16">
             <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold text-gray-800">
                     Entelika AI Hackathon
                 </h2>
                 <h2 className="text-3xl font-bold text-gray-800">
-                    in Collaboration with
+                    in collaboration with
                 </h2>
             </div>{" "}
             <div className="flex flex-col md:flex-row justify-center items-center gap-12">
@@ -30,9 +30,11 @@ const PoweredBySection = () => {
                         />
                     </a>
                     <p className="text-gray-500 text-sm mt-3">
-                        National Institute of Engineering
+                        The National Institute of Engineering
                     </p>
-                    <p className="text-gray-500 text-sm">(Department of ISE)</p>
+                    <p className="text-gray-500 text-sm">
+                        (Department of IS&E)
+                    </p>
                     {/* <p className="mt-6 text-lg font-semibold text-gray-800">
                         Rampur Srinath
                     </p>
@@ -54,12 +56,14 @@ const PoweredBySection = () => {
                         />
                     </a>
                     <p className="text-gray-500 text-sm mt-3">
-                        Institution of Engineers (India)
+                        Institution of Engineers (India), Mysore Local Centre
                     </p>
                     {/* <p className="mt-6 text-lg font-semibold text-gray-800">
                         Dr Deepu R
+                    </p> */}
+                    <p className="text-gray-500 text-sm">
+                        (Mysore Local Center)
                     </p>
-                    <p className="text-gray-500 text-sm">IEI President</p> */}
                 </div>
 
                 {/* CSI Card */}
